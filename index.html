@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+            },
+          },
+        },
+      };
+    </script>
+    <title>penerbangan</title>
+  </head>
+  <body
+    class="bg-gradient-to-r from-slate-900 via-blue-900 to-slate-900 min-h-screen"
+  >
+    <nav
+      class="flex items-center justify-between py-4 px-20 text-white antialiased"
+    >
+      <div class="logo">
+        <img src="asset/logo.png" alt="logo penerbangan" class="w-16 h-16" />
+      </div>
+      <ul
+        class="flex items-ceter gap-x-5 font-sans text-gray-200 cursor-pointer"
+      >
+        <li>Home</li>
+        <li>Berita</li>
+        <li>PPDB</li>
+        <li class="font-semibold text-blue-200">Profile</li>
+        <li class="font-semibold text-blue-200">Kurikulum</li>
+        <li class="font-semibold text-blue-200">Kesiswaan</li>
+        <li>Hubungan Industri</li>
+        <li class="font-semibold text-blue-200">Fasilitas</li>
+        <li class="font-semibold text-blue-200">Gallery</li>
+      </ul>
+      <div class="btn">
+        <button
+          class="bg-blue-500 py-2 px-4 rounded-full text-sm font-bold text-gray-200"
+        >
+          Kontak
+        </button>
+      </div>
+    </nav>
+    <header class="px-20 pt-5">
+      <img src="asset/hero.jpg" class="rounded-xl h-96 w-full" />
+      <img src="asset/Web-Festival-Kaval-Bogor.png" class="rounded-xl py-1" />
+      <img src="asset/Web-PPDB23-R.2.png" class="rounded-xl" />
+    </header>
+    <main class="py-10">
+      <section id="video" class="">
+        <div class="flex items-center justify-center gap-x-2">
+          <span class="bg-blue-400 w-[40%] h-[1px]"></span>
+          <h1 class="text-gray-200 font-bold text-lg">Video</h1>
+          <span class="bg-blue-400 w-[40%] h-[1px]"></span>
+        </div>
+        <video src="https://youtu.be/wP45Eg-KIKw"></video>
+      </section>
+    </main>
+  </body>
+</html>
